@@ -1,4 +1,4 @@
-You are playing poker with your friends and need to evaluate your hand.  
+/* You are playing poker with your friends and need to evaluate your hand.  
 A hand consists of five cards and is ranked, from lowest to highest, in the following way: 
 High Card: Highest value card (from 2 to Ace). 
 One Pair: Two cards of the same value. 
@@ -29,7 +29,7 @@ JS 2H JC AC 2D
 Sample Output:  
 Two Pairs
 
-Explanation: The hand includes two Jacks and two 2s, resulting in Two Pairs.
+Explanation: The hand includes two Jacks and two 2s, resulting in Two Pairs. */
 
 #include <stdio.h>
 #include <string.h>
