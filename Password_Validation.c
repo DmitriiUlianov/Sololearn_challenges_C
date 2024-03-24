@@ -1,4 +1,4 @@
-You're interviewing to join a security team. They want to see you build a password evaluator for your technical interview to validate the input. 
+/* You're interviewing to join a security team. They want to see you build a password evaluator for your technical interview to validate the input. 
  
 Task:  
 Write a program that takes in a string as input and evaluates it as a valid password. The password is valid if it has at a minimum 2 numbers, 
@@ -18,7 +18,7 @@ Sample Output:
 Strong
 
 Explanation: 
-The password has 2 numbers, 2 of the defined special characters, and its length is 14, making it valid.
+The password has 2 numbers, 2 of the defined special characters, and its length is 14, making it valid. */
 
 /*
 #include<stdio.h>
