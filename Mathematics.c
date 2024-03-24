@@ -18,7 +18,7 @@ Sample Output:
 index 1
 
 Explanation:  
-Index counting starts at 0, so '(5*3)' is at index 1 and matches your answer of 15. *\
+Index counting starts at 0, so '(5*3)' is at index 1 and matches your answer of 15. */
 
 #include <stdio.h>
 #include <string.h>
