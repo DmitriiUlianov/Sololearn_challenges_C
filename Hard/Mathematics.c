@@ -4,7 +4,8 @@ Task:
 Test each math expression to find the first one that matches the answer that you are given. 
  
 Input Format:  
-Two inputs: an integer and a space separated string of math expressions. The following operations need to be supported: addition +, subtraction -, multiplication *, division /.  
+Two inputs: an integer and a space separated string of math expressions. 
+The following operations need to be supported: addition +, subtraction -, multiplication *, division /.  
 An expression can include multiple operations. 
  
 Output Format:  
@@ -47,7 +48,8 @@ int func(char *ptr){
                 ++ptr;
    // настраиваем ptr на цифру после знака'+' в строке token
                 *sum_ptr = atoi(ptr); 
-   // меняем значение 2-ого элемента массива sum с 0 на число, на которое указывает теперь ptr (ptr указывает на первую цифру числа, но atoi считывает все цифры числа до символа неявляющегося цифрой)
+   // меняем значение 2-ого элемента массива sum с 0 на число, на которое указывает теперь ptr 
+   // (ptr указывает на первую цифру числа, но atoi считывает все цифры числа до символа неявляющегося цифрой)
                 break;
             case '-':
                 ++sum_ptr;
