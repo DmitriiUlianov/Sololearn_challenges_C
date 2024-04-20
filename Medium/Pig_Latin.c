@@ -16,7 +16,7 @@ Sample Input
 Sample Output  
 "evermindnay ouveyay otgay hemtay"
 
-  Explanation 
+Explanation 
 The output should be the original sentence with each word changed so that they first letter is at the end and then -ay is added after that. */
 
 #include <stdio.h>
